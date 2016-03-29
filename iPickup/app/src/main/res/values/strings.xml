@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">iPickup</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_pickup">Pickup</string>
+    <string name="hint_drop">Drop</string>
+    <string name="docType">Documents</string>
+    <string name="parcel_type">Parcel Type</string>
+    <string name="food">Food items</string>
+    <string name="others">Others</string>
+</resources>

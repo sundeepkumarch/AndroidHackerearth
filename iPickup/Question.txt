@@ -1,0 +1,78 @@
+
+2.
+
+[Problem Statement]
+
+Develop a pseudo android application which would let users help book and manage parcel pickups conveniently.
+
+[Minimum Requirement]
+
+— Implement a feature to accept Pickup / Destination place; you may use Google Places API.
+
+— Add map feature to visualise pickup and destination route and distance associated between two end points.
+
+    feel free to use any service such as Google Maps API providing visualisation and distance between two places
+
+— Feature to book parcel: Now / Later
+
+— Submit Source code, Screenshots & compiled APK.
+
+[Plus Point]
+
+— Order details activity containing various options including confirmation of the order.
+
+    Display: Pickup and Drop point along with estimated cost.
+
+— Implement a Calculation feature based on weight and distance help users search via name or currencies.
+
+Use Web API to fetch parameters (updates dynamically) associated to calculate order costing.
+
+^ Check API documentation to consider various parameters while performing cost calculations.
+
+Priority (delivery_method): Same-day, Standard, Flexible
+
+Weight: Send API query to identify price associated with weight (in grams) input given by enduser.
+
+Type of Parcel: Documents, Food Item or any other things.
+
+— Feel free to use your favourite Android Development SDK and tools in development and design.
+
+[Extra Work] (only if time permits / wizard)
+
+— A feature to List / Confirm order: store and retrieve order details.
+
+— Custom design, font and icons to make app more user-friendly.
+
+— You may add portfolio activity comprising awesome work you have done on android.
+
+— Use your imagination and add features which would make things easier for endusers.
+
+[Guide]
+
+— iPickup:
+
+    Current Rates: https://hackerearth.0x10.info/api/ipickup?type=json&query=current_rates
+
+    Rate associated with 100 gram weight: https://hackerearth.0x10.info/api/ipickup?type=json&query=current_rates&weight=100
+
+    Reference JSON Response Structure: http://i.imgur.com/qW1alJF.png
+
+— For query/issue/support, we are also live on IRC (Freenote network) at #hackerearth.
+
+— Android Google Maps API: https://developers.google.com/maps/documentation/android/
+
+— Google Places API: https://developers.google.com/places/documentation/autocomplete
+
+— Android JSON: http://developer.android.com/reference/org/json/JSONObject.html
+
+— For icons and subtle texture:
+
+    https://github.com/bperin/FontAwesomeAndroid
+
+    http://glyphsearch.com/ | http://www.flaticon.com/
+
+    http://subtlepatterns.com/thumbnail-view/
+
+    http://codebeautify.org/jsonviewer
+
+[Wireframe MVP / Reference Structure]
